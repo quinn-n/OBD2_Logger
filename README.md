@@ -2,7 +2,9 @@
 
 Logs automotive OBD2 data to an SD card, or to a serial connection, or both depending on what's available.
 
-Configured to run out-of-the-box with existing [CAN bus & SD shields](https://www.amazon.ca/gp/product/B076DSQFXH/).
+Configured to run out-of-the-box with existing [CAN shields](https://www.amazon.ca/gp/product/B076DSQFXH/).
+
+What data is logged can be configured by setting `logged_pids`. If `logged_pids` is empty (`{}`) the logger will record all supported PIDs.
 
 ### Requirements
 
